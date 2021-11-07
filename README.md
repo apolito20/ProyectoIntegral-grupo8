@@ -9,3 +9,6 @@ Algunas webs que tendremos como referentes e inspiración tanto por la misma tem
 3 https://www.logitech.com/es-ar
 4 https://www.astrogaming.com/es-roam
 5 https://www.xgaming.com.ar/
+
+Link a plataforma trello:
+1 https://trello.com/b/dUpAtifF/project-ecommerce-juniiv-dh-8
