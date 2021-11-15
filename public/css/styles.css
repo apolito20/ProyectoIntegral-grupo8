@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header img{
+    width: 1520px;
+    height: 300px;
+}
+head img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-image: linear-gradient(to bottom, #73007e,#e0aaff) ;
+}
+
+.productosInteres{
+    text-align: center;
+   width: 400px;
+   height: 35px;
+   border: solid black 3px;
+    color: #000000;
+    background-image: linear-gradient(to left, rgb(212, 0, 255), rgb(249, 187, 255));
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.contenedor{
+    width: 500px;
+    height: 200px;
+    margin: 45px;
+    padding: 60px;
+    background-image: linear-gradient(to left, rgb(212, 0, 255), rgb(153, 1, 167));
+    border-left: solid #ffffff;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-top: solid black;
+}
+
+.contenedor img{
+    border: solid black 3px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+section{
+    background-image: linear-gradient(to top, #840ea8,#e0aaff) ;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    padding: 300px solid #9d4edd;
+    margin: 50px;
+    border: solid #ffffff;
+    width: 700px;
+    height: 1000px;
+}
+
+.carritoDeCompra{
+    border: solid black 5px;
+    text-align: center;
+    padding: 20px;
+    width: 560px;
+    background-image: linear-gradient(to bottom, rgb(212, 0, 255), rgb(236, 115, 247))
+
+}
+
+section img{
+    border: solid rgb(120, 0, 124) 3px;
+    width: 140px;
+    float: left;
+    margin: 10px;
+}
+
+section li{
+    width: 600px;
+    height: 190px;
+
+}
+
+.precioDerecha{
+    position: relative;
+    left:300px;
+    font-size: 20px;
+    margin-left: 80px ;
+    padding-left:80px ;
+}
+
+section ul{
+    margin: 5px;
+    border-bottom: solid black 2px;
+}
+
+.nombre{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+   left: 10px;
+   margin-top: 15px;
+}
+
+.codDescuento{
+   position: relative;
+   left: 250px;
+}
+
+.total{
+    font-size: 20px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    margin: 10px;
+}
+
+.iniciarCompra{
+    position: relative;
+    left: 270px;
+    width: 100px;
+    height: 40px;
+}
