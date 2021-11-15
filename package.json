@@ -1,0 +1,23 @@
+{
+  "name": "Proyecto-integrador",
+  "version": "1.0.0",
+  "description": "Proyecto Integral en equipo - Digital House",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolito20/ProyectoIntegral-grupo8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apolito20/ProyectoIntegral-grupo8/issues"
+  },
+  "homepage": "https://github.com/apolito20/ProyectoIntegral-grupo8#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
