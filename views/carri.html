@@ -2,12 +2,13 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun.scale=1.0, minimun-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     </head>
 
 <header>
-    <img src="img/fondo.jpg" alt="logo juniiv">
+    <img class="fondo" src="img/fondo.jpg" alt="fondo">
+    <img class="superpuesta" src="img/logo.jpg" alt="logo juniiv">
 
 </header>
 
@@ -15,7 +16,7 @@
 
         <h2 class="productosInteres"> Productos que podrian interesarte</h2>
         <div class="contenedor">
-            <img src="img/monitor.jpg">
+            <img class="zoom" src="img/monitor.jpg">
             <p>Nombre del producto - precio: $202020</p>
             <p>Elige una variante</p>
             <select id=ddselect >
@@ -24,11 +25,11 @@
             <option> --3--</option>
             <option> --4--</option>
         </select>
-        <input type="button" name="agregar" value="agregar">
+        <input type="button" name="agregar" value="agregar" >
 
         </div>
         <div class="contenedor">
-            <img src="img/joystick.jpg">
+            <img class="zoom" src="img/joystick.jpg">
             <p>Nombre del producto - precio: $202020</p>
             <p>Elige una variante</p>
             <select id=ddselect >
@@ -45,7 +46,7 @@
         </div>
 
         <div class="contenedor">
-            <img src="img/teclado.jpg">
+            <img class="zoom" src="img/teclado.jpg">
             <p>Nombre del producto - precio: $202020</p>
             <p>Elige una variante</p>
             <select id=ddselect >
@@ -57,7 +58,7 @@
         <input type="button" name="agregar" value="agregar">
         </div>
         <div class="contenedor">
-            <img src="img/mouse.jpg">
+            <img class="zoom" src="img/mouse.jpg">
             <p>Nombre del producto - precio: $202020</p>
             <p>Elige una variante</p>
             <select id=ddselect >
@@ -75,29 +76,32 @@
 
             <ul>
                 <li>
-                    <img src="img/joystick.jpg">
-                    <p class= "nombre">nombre del producto</p>
-                    <p class= "nombre">caracteristicas:</p>
-                    <p class="precioDerecha">$202020</p>
+                    <img class="zoom" src="img/joystick.jpg">
+                    <p class= "nombre">Nombre del producto</p>
+                    <p class= "precioDerecha">      $202020</p>
+                    <p class= "nombre">Caracteristicas:</p>
+                    
                 </li>
                 <li>
-                    <img src="img/joystick.jpg">
-                    <p class= "nombre">nombre del producto</p>
-                    <p class= "nombre">caracteristicas:</p>
-                    <p class="precioDerecha">$202020</p>
+                    <img class="zoom" src="img/joystick.jpg">
+                    <p class= "nombre">Nombre del producto</p>
+                    <p class= "precioDerecha">      $202020</p>
+                    <p class= "nombre">Caracteristicas:</p>
+                   
                 </li>
                 <li>
-                    <img src="img/joystick.jpg">
-                    <p class= "nombre">nombre del producto</p>
-                    <p class= "nombre">caracteristicas:</p>
-                    <p class="precioDerecha">$202020</p>
+                    <img class="zoom" src="img/joystick.jpg">
+                    <p class= "nombre">Nombre del producto</p>
+                    <p class= "precioDerecha">      $202020</p>
+                    <p class= "nombre">Caracteristicas:</p>
+                    
 
                 </li>
             </ul>
 
             <div class="codDescuento">
-            <input type= "text" value="codigo de descuento">
-            <input type="button" name="agregar" value="usar">
+            <input type= "text" value="codigo de descuento" style='width:50%; height:80%'>
+            <input type="button" name="agregar" value="usar" style='width:70px; height:25px'>
             </div>
 
             <div class="total">
@@ -111,12 +115,12 @@
                 <p class="precioDerecha">$00000000</p>
             </div>
             <div class=iniciarCompra>
-            <input type="button" name="iniciar" value="INICIAR COMPRA">
+            <input type="button" name="iniciar" value="INICIAR COMPRA" style='width:50%; height:40%'>
             </div>
         </section>
         
     </body>
     <footer>
-        
+
     </footer>
 </html>

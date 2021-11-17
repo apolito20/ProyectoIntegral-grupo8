@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "titillium", sans-serif;
+    background-color:#222222 ;
+}
+
+header{
+    background-color: #303135;
+}
+
+h4{
+    font-size: 25px;
+    color: white;
+}
+
+h3{
+    font-size: 23px;
+    color: white;
+}
+
+p{
+    font-size: 12px;
+    color: white;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+}
+
+.lista01 li{
+    border-left: 1px solid yellow;
+    padding-left: 5px;
+}
+
+header div.top-header{
+    display: flex;
+}
+
+header div.top-logo img{
+    width: 60%;
+}
+
+div.top-logo,
+div.welcome,
+div.search,
+div.help{
+    width:20%;
+    align-items:center;
+}
+
+section.publicidad img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+main section article img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.productos{
+    color:white;
+    font-size: 18px;
+}
+
+div.carrusel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0px 15px 0px;
+}
+
+main div.productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top:1px solid rgba(219, 219, 219, 0.767);
+    position: relative;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+.fotografias{
+    width: 174px;
+    height: 174px;
+}
+
+main section.bannerDescuentos img{
+    width: 100%;
+}
+
+div.populares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0px 15px 0px;
+}
+
+main div.categoria{
+    color: white;
+    font-size: 18px;
+}
+
+.fondo img{
+    width: 100%;
+    opacity: 0.5;
+    object-fit: contain;
+}
+
+.categoria{
+    position: relative;
+    top:-100px;
+    left:100px;
+}
+
+.texto-fondo{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media(min-width:361px){
+main section div.carrusel article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}}
+
+
+@media(min-width:761px){
+    .lista01{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        width: 50%;
+        flex-direction: row-reverse;
+    }
+
+
+    main section div.carrusel article{
+        width: 23%;    
+    }
+
+    main section div.populares article{
+        width: 33%;
+    }
+
+}
+    
