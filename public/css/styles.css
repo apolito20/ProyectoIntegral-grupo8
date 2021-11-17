@@ -5,25 +5,37 @@
     font-family: sans-serif;
 }
 
-header img{
-    width: 1520px;
-    height: 300px;
+.fondo{
+    width: 100%;
+    height: 200px;
 }
+
+.superpuesta{
+    width: 25%;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+}
+
 head img{
     width: 100px;
     height: 100px;
 }
 body{
-    background-image: linear-gradient(to bottom, #73007e,#e0aaff) ;
+    max-width: 1500px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #000000,#520578) ;
 }
 
 .productosInteres{
+    margin-top: 10px;
     text-align: center;
-   width: 400px;
-   height: 35px;
+   width: 30%;
+   height: 3%;
    border: solid black 3px;
     color: #000000;
-    background-image: linear-gradient(to left, rgb(212, 0, 255), rgb(249, 187, 255));
+    background-image: linear-gradient(to top, #520578, #b92cdc);
 }
 
 h2{
@@ -32,18 +44,27 @@ h2{
 }
 
 .contenedor{
-    width: 500px;
-    height: 200px;
+    width: 35%;
+    height: 10%;
     margin: 45px;
     padding: 60px;
-    background-image: linear-gradient(to left, rgb(212, 0, 255), rgb(153, 1, 167));
+    background-image: linear-gradient(to left, #b92cdc, #bc6ff1);
     border-left: solid #ffffff;
     border-right: solid black;
     border-bottom: solid black;
     border-top: solid black;
 }
 
+.zoom{
+    transition: transform .5s;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
 .contenedor img{
+    padding: solid black 1px;
     border: solid black 3px;
     width: 100px;
     float: left;
@@ -56,63 +77,66 @@ h2{
 }
 
 section{
-    background-image: linear-gradient(to top, #840ea8,#e0aaff) ;
+    background-image: linear-gradient(to left, #b92cdc, #bc6ff1) ;
     position: absolute;
-    right: 100px;
-    top: 300px;
+    right: 5%;
+    top: 22%;
     padding: 300px solid #9d4edd;
     margin: 50px;
     border: solid #ffffff;
-    width: 700px;
-    height: 1000px;
+    width: 50%;
+    height: 130%;
 }
 
 .carritoDeCompra{
     border: solid black 5px;
     text-align: center;
     padding: 20px;
-    width: 560px;
-    background-image: linear-gradient(to bottom, rgb(212, 0, 255), rgb(236, 115, 247))
+    width: 80%;
+    background-image: linear-gradient(to top, #520578, #b92cdc);
 
 }
 
 section img{
     border: solid rgb(120, 0, 124) 3px;
-    width: 140px;
+    width: 30%;
     float: left;
     margin: 10px;
 }
 
 section li{
-    width: 600px;
-    height: 190px;
+    width: 38%;
+    height: 70%;
+    margin-bottom: 7%;
 
 }
 
 .precioDerecha{
     position: relative;
-    left:300px;
+    left:80%;
     font-size: 20px;
-    margin-left: 80px ;
-    padding-left:80px ;
+    margin-left: 2% ;
+    padding-left:2% ;
 }
 
 section ul{
-    margin: 5px;
+    margin: 3%;
+    margin-bottom: 10%;
     border-bottom: solid black 2px;
 }
 
 .nombre{
     position: relative;
-    top: 50px;
+    bottom: 20%;
     font-size: 20px;
-   left: 10px;
-   margin-top: 15px;
+   left: 10%;
+   margin-top: 2%;
 }
 
 .codDescuento{
    position: relative;
-   left: 250px;
+   bottom: 3%;
+   left: 20%;
 }
 
 .total{
@@ -125,6 +149,6 @@ section ul{
 .iniciarCompra{
     position: relative;
     left: 270px;
-    width: 100px;
-    height: 40px;
+    width: 50%;
+    height: 10%;
 }
