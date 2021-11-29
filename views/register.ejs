@@ -1,3 +1,4 @@
+<<<<<<< HEAD:views/register.ejs
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,4 +39,85 @@
      </div>
     </form>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/style-register.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>  
+<body>
+    <header class="main-header">
+        <div>
+            <i><a href="/index"><img src="img/juniiv-logo.png" alt="logo" class="juniiv-logo"></a></i>
+        
+        </div>
+    <div class="header-search">
+        <div class="search-box">
+            <input type="text" required pattern=".{3,100}" placeholder="Que estas buscando?" name="searchbar" id="searchbar">
+            <button class="boton-buscar" type="submit" ><i class="fas fa-search"></i></button></i>
+            <div class="btn">
+             <i class="fas fa-search icon"></i>
+            </div>
+         </div>         
+    </div>
+    <div class="main-navbar">
+    <ul>
+        <li><a href="/register">Crea tu cuenta <i class="far fa-user-circle"></i></a></li>
+        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="/carri">Mi Carrito <i class="fas fa-shopping-basket"></i></a></li>
+    </ul>
+</div>
+
+</header>
+<main>
+    <div class="container">
+        <div class="title">Registrate</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombre </span>
+                    <input type="text" placeholder="Pon tu Nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Apellido</span>
+                    <input type="text" placeholder="Pon tu Apellido" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Pon tu Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Telefono</span>
+                    <input type="text" placeholder="Pon tu Telefono" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Contraseña</span>
+                    <input type="password" placeholder="Pon tu Contraseña" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirmar Contraseña</span>
+                    <input type="password" placeholder="Confirma tu Contraseña" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Registrar">
+
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+>>>>>>> 1df60d89a21947063be46853f42da4c8f3f79c48:views/register.html
 </html>
