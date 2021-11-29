@@ -7,21 +7,21 @@ app.listen(3300, () => {
 });
 
 app.get("/", (req,res) => {
-    res.sendFile(__dirname + "/views/index.html");
+    res.sendFile(__dirname + "/src/views/index.html");
 });
 
 app.get('/detalleProducto', (req,res)=>{
-    res.sendFile(__dirname + '/views/detalleProducto.html');
+    res.sendFile(__dirname + '/src/views/detalleProducto.html');
 });
 
 app.get('/login', (req,res)=>{
-    res.sendFile(__dirname + '/views/login.html');
+    res.sendFile(__dirname + '/src/views/login.html');
 });
 
 app.get('/register', (req,res)=>{
-    res.sendFile(__dirname + '/views/register.html');
+    res.sendFile(__dirname + '/src/views/register.html');
 });
 
 app.get('/carri', (req,res)=>{
-    res.sendFile(__dirname + '/views/carri.html');
+    res.sendFile(__dirname + '/src/views/carri.html');
 });
