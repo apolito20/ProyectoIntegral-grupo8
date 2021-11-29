@@ -1,27 +1,18 @@
 const express = require("express");
 const app = express();
 app.use(express.static("public"));
+const mainRoutes = require("./routes/mainRoutes");
+
+app.set("view engine", "ejs");
+
 
 app.listen(3300, () => {
     console.log("Servidor funcionando");
 });
 
-app.get("/", (req,res) => {
-    res.sendFile(__dirname + "/views/index.html");
-});
+app.use("/", mainRoutes);
+app.use("/detalleProducto", mainRoutes);
+app.use("/carrito", mainRoutes);
 
-app.get('/detalleProducto', (req,res)=>{
-    res.sendFile(__dirname + '/views/detalleProducto.html');
-});
-
-app.get('/login', (req,res)=>{
-    res.sendFile(__dirname + '/views/login.html');
-});
-
-app.get('/register', (req,res)=>{
-    res.sendFile(__dirname + '/views/register.html');
-});
-
-app.get('/carrito', (req,res)=>{
-    res.sendFile(__dirname + '/views/carri.html');
-});
+app.use("/login", mainRoutes);
+app.use("/register", mainRoutes);
