@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/style-register.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>  
+<body>
+    <header class="main-header">
+        <div>
+            <i><a href="/index"><img src="img/juniiv-logo.png" alt="logo" class="juniiv-logo"></a></i>
+        
+        </div>
+    <div class="header-search">
+        <div class="search-box">
+            <input type="text" required pattern=".{3,100}" placeholder="Que estas buscando?" name="searchbar" id="searchbar">
+            <button class="boton-buscar" type="submit" ><i class="fas fa-search"></i></button></i>
+            <div class="btn">
+             <i class="fas fa-search icon"></i>
+            </div>
+         </div>         
+    </div>
+    <div class="main-navbar">
+    <ul>
+        <li><a href="/register">Crea tu cuenta <i class="far fa-user-circle"></i></a></li>
+        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="/carri">Mi Carrito <i class="fas fa-shopping-basket"></i></a></li>
+    </ul>
+</div>
+
+</header>
+<main>
+    <div class="container">
+        <div class="title">Agregar nuevo producto</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Titulo </span>
+                    <input type="text" placeholder="Titulo del producto" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Categoria</span>
+                    <input type="number" placeholder="Categoria del producto" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Descripcion</span>
+                    <input type="text" placeholder="Descripcion del producto" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Precio</span>
+                    <input type="number" placeholder="Precio del Producto" required>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Cargar Producto">
+
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
