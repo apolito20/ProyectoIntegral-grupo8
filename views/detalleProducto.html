@@ -7,57 +7,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-
-
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link type="text/css" rel="stylesheet" href="css/styles-detalle.css">
+    <link type="text/css" rel="stylesheet" href="css/style-detalle.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Detalle del Producto</title>>
 </head>
 <body>
-    <header class="main-header">
+<header class="main-header">
         <div>
             <i><a href="/index"><img src="img/juniiv-logo.png" alt="logo" class="juniiv-logo"></a></i>
-            
+        
         </div>
-        <form class="form-searchbar" method="POST" action="/">
+    <div class="header-search">
+        <div class="search-box">
+            <input type="text" required pattern=".{3,100}" placeholder="Que estas buscando?" name="searchbar" id="searchbar">
+            <button class="boton-buscar" type="submit" ><i class="fas fa-search"></i></button></i>
+            <div class="btn">
+             <i class="fas fa-search icon"></i>
+            </div>
+         </div>         
+    </div>
+    <div class="main-navbar">
+    <ul>
+        <li><a href="/register">Crea tu cuenta <i class="far fa-user-circle"></i></a></li>
+        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="/carri">Mi Carrito <i class="fas fa-shopping-basket"></i></a></li>
+    </ul>
+</div>
 
-            <i><input type="text" required pattern=".{3,100}" placeholder="Que estas buscando?" name="searchbar" id="searchbar">
-                <button class="boton-buscar" type="submit" ><i class="fas fa-search"></i></button></i>
-        </form>
+</header>
+    <main class="main-box">
+        <div class="main-boxing">
+            <div class="product-box">
+                <div class="product-img">
 
-    </header>
-    <main>
-        <section>
-            <article>
-                <img src=img/monitor1.png alt="Monitor" class="product-img">
+                    <img src=img/monitor1.png alt="Monitor" class="product-img">
+                </div>
                 <div class="div-detalle-producto">
-                    <h2 class="titulo">Monitor Led 19" Sentey HD 60hz 5ms MS-1950 Vga</h2>
+                    <h2 class="titulo">Monitor Led 190" Sentey HD 60hz 5ms MS-1950 Vga</h2>
+                    <br>
                     <h3 class="price">$15999</p>
-                    <h3 class="cuotas"></p>
-                    <div class="purchase">
-                    <button class="comprar" type="submit">Comprar Ya</button>
-                    <button class="carrito" type="submit">Agregar al carrito</button>
-                    <p>Sentey busca entender a los usuarios para ofrecerles óptimas soluciones y nuevas experiencias a través de la evolución tecnológica. Disfrutá de la perfecta combinación de diseño, calidad y rendimiento que la empresa te ofrece en este monitor.
-
-Una experiencia visual de calidad
-Sus 19" te van a resultar ideales en tu vida diaria, ya sea para estudiar o trabajar. Asimismo, su resolución de 1366 x 768 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de vos y vas a evitar forzar tu vista para enfocar el contenido./p>
-                    
-
-                </div>
-                <div class="descripcion">
-                    <p>
-
+                    <br>
+                    <h4>Detalle del Producto</h4>
+                    <br>
+                    <p>El nuevo monitor SENTEY MS-1950 le ofrece un espacio de trabajo
+                        compacto y brillante con su pantalla TN de 19" reales y 16.000.000 de colores.
                     </p>
+                    <br>
+                        <div class="purchase">
+                            <button class="comprar" type="submit">Comprar Ya</button>
+                            <button class="carrito" type="submit">Agregar al carrito</button>
+                            <p></p>
+                        </div>
                 </div>
-            </article>
-        </section>
+                </div>
+                           
+            </div>
+        </div>
+        
     </main>
-    <footer class="footer">
-
-    </footer>
-</body>
-</html>
+    </body>
+    </html>    
