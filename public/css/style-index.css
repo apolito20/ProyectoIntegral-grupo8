@@ -43,6 +43,7 @@ header nav{
 .lista01 li{
     border-left: 1px solid yellow;
     padding-left: 5px;
+    flex-direction: row-reverse;
 }
 
 .lista02 li{
@@ -91,6 +92,29 @@ main section article img{
     font-size: 18px;
 }
 
+.tituloPro{
+    font-size: 17px;
+}
+
+.descripcion{
+    display: none;
+    font-size: 14px;
+    text-align: start;
+    color: white;
+}
+
+.precio{
+    margin: 1px;
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    font-size: 16px;
+    margin: 1px;
+    width: 70%;
+}
+
 div.carrusel{
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +124,6 @@ div.carrusel{
 
 main div.productos{
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     border-top:1px solid rgba(219, 219, 219, 0.767);
@@ -118,12 +141,15 @@ main div.productos{
 main section.bannerDescuentos img{
     width: 100%;
 }
-
+.categoriaPopu{
+    text-align: center;
+    margin: 5px;
+}
 div.populares{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 15px 0px 15px 0px;
+    position: relative;
 }
 
 main div.categoria{
@@ -131,21 +157,78 @@ main div.categoria{
     font-size: 18px;
 }
 
+
+.categoria{
+    position: absolute;
+    top:40px;
+    align-content: center;
+    padding-left: 20px;
+}
 .fondo img{
     width: 100%;
     opacity: 0.5;
     object-fit: contain;
 }
 
-.categoria{
-    position: relative;
-    top:-100px;
-    left:100px;
-}
-
 .texto-fondo{
     font-size: 24px;
     font-family: 'Bebas Neue', cursive;
+}
+
+.kitTittle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.kit{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+}
+
+main section div.kit-img img{
+    width: 100%;
+}
+
+.circle{
+    width: 50%;
+    position: absolute;
+    top: 25px;
+    align-items: center;
+}
+
+.combos{
+    width: 100%;
+    z-index: 1;
+}
+
+div.refKit,
+div.descripcionKit{
+    text-align: center;
+    justify-content: flex-start;
+    align-self: center;
+    width: 85%;
+}
+
+div.refKit P,
+div.descripcionKit P{
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+}
+
+
+
+main section article:hover .descripcion{
+    display: block;
+}
+
+main section div.circle img{
+    transition: transform 1s;
+}
+
+main section div.circle :hover img{
+    transform: rotateZ(-90deg);
 }
 
 @media(min-width:361px){
@@ -185,5 +268,11 @@ main section div.carrusel article{
         width: 33%;
     }
 
+    .categoria{
+        position: absolute;
+        top:150px;
+        align-content: center;
+        padding-left: 100px;
+    }
 }
     
