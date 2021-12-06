@@ -16,39 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="lista">
-            <ul class="lista01">
-                <li>Crea tu cuenta</li>
-                <li>Ingresa</li>
-                <li>Mis compras</li>
-            </ul>
-        </nav>
-        <div class="top-header">
-            <div class="top-logo">
-            <img src = "/img/logo.jpeg" alt=logo>
-            </div class="welcome">
-            <div>
-            <h4>Bienvenido Username</h4>
-            </div>
-            <div class="search">
-            <p>Buscar productos, caterogías y más ...</p>
-            </div>
-            <div class="help">
-            <p><a href=#>Ayuda/PQRS</a></p>
-            </div>
-            <div>
-            <p>carrito</p>
-            </div>
-        </div>
-            <nav class = "lista">
-                <ul class = "lista02">
-                    <li><a href=#>Caterogías</a></li>
-                    <li<a href=#>Ofertas</a></li>
-                    <li><a href=#>Packs</a></li>
-                    <li><a href=#>Vlogs</a></li>
-                    <li><a href=#>Otros</a></li>
-                </ul>
-            </nav>
+        <%- include('./partials/head') %>    
     </header>
     <section class="publicidad">
     <img src = "/img/banner-diadema.jpg" alt=banner-diadema>
@@ -159,7 +127,7 @@
         </section>
     </main>
     <footer>
-
+        <%- include('./partials/footer') %>  
     </footer>
 </body>
 </html>

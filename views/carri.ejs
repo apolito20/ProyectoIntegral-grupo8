@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun.scale=1.0, minimun-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     </head>
-
-<header>
-    <img class="fondo" src="img/fondo.jpg" alt="fondo">
-    <img class="superpuesta" src="img/logo.jpg" alt="logo juniiv">
-
-</header>
-
     <body>
-
+        <header>
+            <%- include('./partials/head') %>    
+        </header>    
         <h2 class="productosInteres"> Productos que podrian interesarte</h2>
         <div class="contenedor">
             <img class="zoom" src="img/monitor.jpg">
@@ -121,6 +116,6 @@
         
     </body>
     <footer>
-
+        <%- include('./partials/footer') %>  
     </footer>
 </html>

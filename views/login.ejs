@@ -8,6 +8,9 @@
 	
 </head>  
 <body>
+    <header>
+        <%- include('./partials/head') %>    
+    </header>
    <section class= "form-login">
        <h5>Formulario login</h5>
        <input class="controls" type= "text" name="usuario" value="" placeholder="usuario">
@@ -15,5 +18,8 @@
        <input class="button" type= "submit" name="" value="Ingresar">
        <p><a href="#">¿Olvido su contraseña?</a></p>
    </section>
+   <footer>
+    <%- include('./partials/footer') %>  
+</footer>
 </body>
 </html>
