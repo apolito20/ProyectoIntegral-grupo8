@@ -25,7 +25,8 @@ head img{
 body{
     max-width: 1500px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #000000,#520578) ;
+    height: 200%;
+    background-image: linear-gradient(to bottom, #000000,#222222) ;
 }
 
 .productosInteres{
@@ -34,9 +35,8 @@ body{
    width: 30%;
    height: 3%;
    border: solid black 3px;
-    color: #000000;
-    background-image: linear-gradient(to top, #520578, #b92cdc);
-}
+    color: white;
+    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);}
 
 h2{
     margin-top: 10px;
@@ -48,11 +48,12 @@ h2{
     height: 10%;
     margin: 45px;
     padding: 60px;
-    background-image: linear-gradient(to left, #b92cdc, #bc6ff1);
+    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
     border-left: solid #ffffff;
     border-right: solid black;
     border-bottom: solid black;
     border-top: solid black;
+    color: white;
 }
 
 .zoom{
@@ -77,15 +78,15 @@ h2{
 }
 
 section{
-    background-image: linear-gradient(to left, #b92cdc, #bc6ff1) ;
-    position: absolute;
+    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);    position: absolute;
     right: 5%;
     top: 22%;
     padding: 300px solid #9d4edd;
     margin: 50px;
     border: solid #ffffff;
     width: 50%;
-    height: 130%;
+    height: 140%;
+    color: white;
 }
 
 .carritoDeCompra{
@@ -93,12 +94,12 @@ section{
     text-align: center;
     padding: 20px;
     width: 80%;
-    background-image: linear-gradient(to top, #520578, #b92cdc);
-
+    background:linear-gradient(89.17deg,#302f2f 12.64%,#454545 173.99%);
+    color: white;
 }
 
 section img{
-    border: solid rgb(120, 0, 124) 3px;
+    border: solid rgba(234, 5, 255, 0.233) 3px;
     width: 30%;
     float: left;
     margin: 10px;
@@ -109,6 +110,12 @@ section li{
     height: 70%;
     margin-bottom: 7%;
 
+}
+
+.precio{
+    position: relative;
+    left: 170%;
+    bottom: 30%;
 }
 
 .precioDerecha{
