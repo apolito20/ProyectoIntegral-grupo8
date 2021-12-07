@@ -21,6 +21,7 @@ body{
     padding: 20px 30px;
     border-top: 4px solid #a100f2;
     color: white;
+    margin-bottom: 6em;
 }
 
 .form-login h5 {

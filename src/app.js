@@ -7,7 +7,7 @@ const mainRoutes = require("./routes/mainRoutes");
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname,"/views"));
 
-app.listen(3300, () => {
+app.listen(3000, () => {
     console.log("Servidor funcionando");
 });
 

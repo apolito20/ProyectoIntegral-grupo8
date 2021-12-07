@@ -5,56 +5,124 @@
     font-family: sans-serif;
 }
 
-.fondo{
-    width: 100%;
-    height: 200px;
-}
 
-.superpuesta{
-    width: 25%;
-    height: 200px;
-    position: absolute;
-    top: 0%;
-    left: 35%;
-}
-
-head img{
-    width: 100px;
-    height: 100px;
-}
 body{
-    max-width: 1500px;
-    width: 100%;
-    height: 200%;
+    margin: 0;
     background-image: linear-gradient(to bottom, #000000,#222222) ;
 }
 
-.productosInteres{
-    margin-top: 10px;
-    text-align: center;
-   width: 30%;
-   height: 3%;
-   border: solid black 3px;
-    color: white;
-    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);}
+@media screen and (min-width: 780px) and (max-width:1024px){
+
+    section{
+        margin:auto;
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);  
+        margin: 50px;
+        border: solid #ffffff;
+        width: auto;
+        height: auto;
+        color: white;
+    }
+
+
+    .contenedor{
+        visibility:hidden;
+    }
+
+    .productosInteres{
+        visibility:hidden;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width:780px){
+
+    section{
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);    position: absolute;
+        padding: 3em 2em, solid #9d4edd;
+        margin: 50px;
+        border: solid #ffffff;
+        width: 10%;
+        height: 30%;
+        color: white;
+    }
+
+
+    .contenedor{
+        width: 35%;
+        height: 10%;
+        margin: 45px;
+        padding: 60px;
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+        border-left: solid #ffffff;
+        border-right: solid black;
+        border-bottom: solid black;
+        border-top: solid black;
+        color: white;
+        visibility:hidden;
+    }
+
+    .productosInteres{
+        margin-top: 10px;
+        text-align: center;
+       width: 30%;
+       height: 3%;
+       border: solid black 3px;
+        color: white;
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+        visibility:hidden;
+    }
+    
+
+}
+
+@media screen and (min-width: 480px){
+
+    section{
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);    position: absolute;
+        right: 5%;
+        top:35%;
+        padding: 300px solid #9d4edd;
+        margin: 50px;
+        border: solid #ffffff;
+        width: 50%;
+        height: 130%;
+        color: white;
+    }
+
+
+    .contenedor{
+        width: 35%;
+        height: 10%;
+        margin: 45px;
+        padding: 60px;
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+        border-left: solid #ffffff;
+        border-right: solid black;
+        border-bottom: solid black;
+        border-top: solid black;
+        color: white;
+    }
+
+    .productosInteres{
+        margin-top: 10px;
+        text-align: center;
+       width: 30%;
+       height: 3%;
+       border: solid black 3px;
+        color: white;
+        background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+    }
+    
+
+}
+
 
 h2{
     margin-top: 10px;
     margin-left: 70px;
 }
 
-.contenedor{
-    width: 35%;
-    height: 10%;
-    margin: 45px;
-    padding: 60px;
-    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
-    border-left: solid #ffffff;
-    border-right: solid black;
-    border-bottom: solid black;
-    border-top: solid black;
-    color: white;
-}
+
 
 .zoom{
     transition: transform .5s;
@@ -77,17 +145,7 @@ h2{
     font-weight: 300;
 }
 
-section{
-    background:linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);    position: absolute;
-    right: 5%;
-    top: 22%;
-    padding: 300px solid #9d4edd;
-    margin: 50px;
-    border: solid #ffffff;
-    width: 50%;
-    height: 140%;
-    color: white;
-}
+
 
 .carritoDeCompra{
     border: solid black 5px;
