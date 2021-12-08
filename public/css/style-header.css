@@ -9,8 +9,8 @@
     background-color: #303135; 
     border: solid #b1b6cc;
     margin: 0%;
-    padding: 20px;
-    padding-bottom: 5px;
+    padding: 1em;
+    padding-bottom: 1%;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -29,28 +29,128 @@
     flex-wrap: wrap;
     background-color: #303135;
     height: auto;
-    width: 100%;
+    width: 90%;
     flex-direction: row;
     height: 50%;
     align-self: center;
     }
     
+    @media screen and (min-width: 480px){
+        .header-search .search-box{
+            margin: auto;
+            background-color: #303135;
+            position: absolute;
+            padding: 5px;
+            width: 70%;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            align-self: center;
+        }
 
-.header-search .search-box{
-    margin: auto;
-    background-color: #303135;
-    position: absolute;
-    padding: 5px;
-    width: 70%;
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    align-self: center;
+        .btn {
+            position: absolute;
+            top: 3%;
+            right:0;
+            background: #000000;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+    }
+
+    @media screen and (min-width: 780px) and (max-width:1024px) {
+
+        .header-search .search-box{
+            margin: auto;
+            background-color: #303135;
+            position: absolute;
+            padding: 5px;
+            width: 60%;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            align-self: center;
+        }
+
+        .btn {
+            position: absolute;
+            top: 3%;
+            right:0;
+            background: #000000;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+     }
+
+    @media screen and (min-width: 480px) and (max-width:780px) {
+
+        .header-search .search-box{
+            margin: auto;
+            background-color: #303135;
+            position: absolute;
+            padding: 5px;
+            width: 45%;
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            align-self: center;
+        }
+
+        .btn {
+            position: absolute;
+            top: 10%;
+            right:0;
+            background: #000000;
+            width: 10%;
+            height: 80%;
+            line-height: 55px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
 
 
-    
-    
-}
+        .main-navbar{
+            width: 30%;
+            padding: 1%;;
+            font-size: 19px;
+            color: red;
+            height: 40%;
+            background-color: #533D66;
+            text-decoration: none;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: bottom;
+            
+        }
+        
+        .main-navbar ul li{
+            vertical-align: top;
+            display: inline;
+            font-size: 0.4em;
+            padding: 0.3em;
+        }
+
+    }
+
+
+
 .search-box input{
     width: 90%;
     height: 50px;
@@ -64,37 +164,13 @@
 
 }
 
-.btn {
-    position: absolute;
-    top: 0;
-    right:0;
-    background: #000000;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-}
+
 
 .search-box:hover input{
     width: 100%;
 }
 
-.main-navbar{
-    width: 500px;
-    padding: 10px;;
-    font-size: 19px;
-    color: red;
-    height: 40%;
-    background-color: #533D66;
-    text-decoration: none;
-    align-items: flex-end;
-    display: flex;
-    flex-direction: row;
-}
+
 
 .li{
     font-size: 100px;
