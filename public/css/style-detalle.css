@@ -105,7 +105,7 @@
 }
 
 .price{
-    color: #fff ;
+    color: aqua ;
 }
 
 
@@ -209,9 +209,24 @@ body{
     
 }
 
-.price{
-    font-size: 30px;
+.precio{
+    display: flex;
+    flex-direction: row;
 
+}
+
+.price{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+    
+
+
+}
+
+.descuento{
+    color: rgb(47, 204, 47);
+    font-size: 30px;
 }
 
 .form-searchbar{

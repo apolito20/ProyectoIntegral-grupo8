@@ -94,19 +94,15 @@
     align-items: flex-end;
     display: flex;
     flex-direction: row;
+
 }
 
 .li{
     font-size: 100px;
 }
-.titulo{
-    
-    color: white;
-}
 
-.price{
-    color: #fff ;
-}
+
+
 
 
 .main-navbar{
@@ -122,4 +118,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
