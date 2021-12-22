@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junniv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style-productos.css">
+</head>
+<body>
+    <header>
+        <%- include('./partials/head') %>    
+    </header>
+    <section class="publicidad">
+    <img src = "/img/banner-diadema.jpg" alt=banner-diadema>
+    </section>
+    <main>
+        <section>
+            <% for (i = 0; i< productos.length; i++) { %>
+            <div class ="carrusel">
+                <article>
+                <a href="/productos/<%= products[i].id %>">
+                <img src="/img/<%= products[i].image %>" alt=TecladoKB500>
+                <div class="productos">
+                    <h4 class = "tituloPro"><%= products[i].name %></h4>
+                    <p class = "descripcion"><%= products[i].description %></p>
+                    <p class = "precio"><%= products[i].price %></p>
+                    <p class = "descuento"><%= products[i].descuento %></p>
+                    <p><a href = #>Ver detalles</a></p>
+                </div>
+                </article>
+            </div>
+        </section>
+        <% } %>
+ 
+    </main>
+    <footer>
+        <%- include('./partials/footer') %>  
+    </footer>
+</body>
+</html>

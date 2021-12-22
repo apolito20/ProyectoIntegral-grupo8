@@ -22,28 +22,37 @@
 <main>
     <div class="container">
         <div class="title">Agregar nuevo producto</div>
-        <form action="#">
+        <form action="/productos" method="POST" enctype="multipart/form-data">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Titulo </span>
-                    <input type="text" placeholder="Titulo del producto" required>
+                    <input type="text" name="name" placeholder="Titulo del producto" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Categoria</span>
-                    <input type="number" placeholder="Categoria del producto" required>
+                    <select name="category" id="category" class="form-input" required>
+                    <option value="">Categoria del producto</option>
+                    <option value="in-sale">Diademas</option>
+                    <option value="visited">Teclados</option>
+                    <option value="in-sale">Pad mouse</option>
+                    <option value="visited">Mouse</option>
+                    </select>
                 </div>
                 <div class="input-box">
                     <span class="details">Descripcion</span>
-                    <input type="text" placeholder="Descripcion del producto" required>
+                    <input type="text" name="description" placeholder="Descripcion del producto" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Precio</span>
-                    <input type="number" placeholder="Precio del Producto" required>
+                    <input type="number" name="price" placeholder="Precio del Producto" required>
+                </div>
+                <div class="input-box">
+                    <span class="image">Imagen del producto</span>
+                    <input type="file" id="image" name="image" class="form-input">
                 </div>
             </div>
             <div class="button">
-                <input type="submit" value="Cargar Producto">
-
+                <button type="submit" class="button-Cargar">Guardar producto</button>
             </div>
         </form>
     </div>
