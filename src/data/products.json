@@ -1,11 +1,49 @@
 [
     {
         "id":1,
+        "name": "teclado",
+        "description":"Teclado minimalista",
+        "image": "mouse1027.png",
+        "category": "Teclados",
+        "price":"$3.05",
+        "descuento":"10%"
+    },
+    {
+        "id":2,
+        "name":null,
+        "description":"error: undefined method `/' for nil:NilClass",
+        "image":"mouse1027.png",
+        "category":null,
+        "price":"$3.08",
+        "descuento":"110"
+    }
+    ,
+    {
+        "id":3,
         "name":null,
         "description":"error: undefined method `/' for nil:NilClass",
         "image":null,
         "category":null,
-        "price":"$3.05",
-        "descuento":"10"
+        "price":"$3.08",
+        "descuento":"110"
+    }
+    ,
+    {
+        "id":4,
+        "name":null,
+        "description":"error: undefined method `/' for nil:NilClass",
+        "image":null,
+        "category":null,
+        "price":"$3.08",
+        "descuento":"110"
+    },
+    {
+        "id":5,
+        "name":null,
+        "description":"error: undefined method `/' for nil:NilClass",
+        "image":null,
+        "category":null,
+        "price":"$3.08",
+        "descuento":"110"
     }
 ]

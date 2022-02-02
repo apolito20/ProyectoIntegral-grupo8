@@ -23,22 +23,22 @@
     </section>
     <main>
         <section>
-            <% for (i = 0; i< productos.length; i++) { %>
             <div class ="carrusel">
+                <% for (i = 0; i< productos.length; i++) { %>
                 <article>
-                <a href="/productos/<%= products[i].id %>">
-                <img src="/img/<%= products[i].image %>" alt=TecladoKB500>
+                <a href="/detalleProducto/<%= productos[i].id %>">
+                <img src="/img/productos/<%= productos[i].image %>" alt="Imagen del producto">
                 <div class="productos">
-                    <h4 class = "tituloPro"><%= products[i].name %></h4>
-                    <p class = "descripcion"><%= products[i].description %></p>
-                    <p class = "precio"><%= products[i].price %></p>
-                    <p class = "descuento"><%= products[i].descuento %></p>
-                    <p><a href = #>Ver detalles</a></p>
+                    <h4 class = "tituloPro"><%= productos[i].name %></h4>
+                    <p class = "descripcion"><%= productos[i].description %></p>
+                    <p class = "precio"><%= productos[i].price %></p>
+                    <p class = "descuento"><%= productos[i].descuento %></p>
+                    <p><a href ="/detalleProducto/<%= productos[i].id %>">Ver detalles</a></p>
                 </div>
                 </article>
+                <% } %>
             </div>
         </section>
-        <% } %>
  
     </main>
     <footer>

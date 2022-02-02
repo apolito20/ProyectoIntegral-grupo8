@@ -10,7 +10,9 @@ const mainController = {
     },
 
     detalleProducto:(req,res) => {
-        res.render("detalleProducto");
+          let idProducto = req.params.id
+          let productoAMostrar = products.find(element => element.id == idProducto)
+          res.render('detalleProducto',{productos: productoAMostrar});
    },
 
    carrito:(req,res) => {
@@ -27,7 +29,7 @@ const mainController = {
 
      productos:(req,res) => {
 		const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'))// --> Vuelve a cargar la BBDD dentro del método para forzar un refresh de los datos del JSON
-		res.render('products', {productos: products})
+		res.render('productos', {productos: products})
      },
      
      create:(req,res) => {
@@ -36,6 +38,16 @@ const mainController = {
 
      store:(req, res) => {
           return res.send(req.body);
+     },
+
+     editarProductos: (req, res) => {
+          let idProducto = req.params.id
+          let productoAMostrar = products.find(element => element.id == idProducto)
+          res.render('editarProductos',{productos: productoAMostrar});
+     },
+
+     guardarProducto:(req, res) => {
+          res.send("recibí los datos");
      },
 }
 

@@ -25,14 +25,13 @@
         <div class="main-boxing">
             <div class="product-box">
                 <div class="product-img">
-
-                    <img src="/img/monitor1.png" alt="Monitor" class="product-img">
+                    <img src="/img/productos/<%= productos.image %>" alt="Monitor" class="product-img">
                 </div>
                 <div class="div-detalle-producto">
-                    <h2 class="titulo">Monitor Led 190" Sentey HD 60hz 5ms MS-1950 Vga</h2>
+                    <h2 class="titulo"><%= productos.name %></h2>
                     <br>
-                    <h3 class="price">$19.999,99</h3>
-                    <p class="descuento">$15,999,25</p>
+                    <h3 class="price"><%= productos.price %></h3>
+                    <p class="descuento"><%= productos.descuento %></p>
                     <br>
                     <p>Cantidad</p>
                     <select id=ddselect >
@@ -44,8 +43,7 @@
                     <br>
                     <h4>Detalle del Producto</h4>
                     <br>
-                    <p>El nuevo monitor SENTEY MS-1950 le ofrece un espacio de trabajo
-                        compacto y brillante con su pantalla TN de 19" reales y 16.000.000 de colores.
+                    <p><%= productos.description %>
                     </p>
                     <br>
                         <div class="purchase">
@@ -54,8 +52,7 @@
                             <p></p>
                         </div>
                 </div>
-                </div>
-                           
+            </div>                 
             </div>
         </div>
         
