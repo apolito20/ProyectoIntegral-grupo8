@@ -37,7 +37,17 @@ const mainController = {
      },
 
      store:(req, res) => {
-          return res.send(req.body);
+          let infoLlegaForm =  JSON.stringify(req.body);
+          let nuevoID = products[products.length -1 ].id +1;
+          let nuevoProducto = {
+               id : nuevoID,
+               ...req.body,
+          }
+
+          products.push(nuevoProducto)
+          let productsJSON = JSON.stringify(products, null, 2) //el null, 2 hace que quede una clave abajo de la otra, y formatea el JSON
+          fs.writeFileSync(productsFilePath,productsJSON) // Busca la ubicación del archivo JSON, y le pisa la información con la variable productsJSON
+          //res.redirect('/products')
      },
 
      editarProductos: (req, res) => {
