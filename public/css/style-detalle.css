@@ -298,6 +298,16 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
+.edicion{
+    color: #fff;
+    background-color: #3483fa;
+    border-color: #3483fa;
+    box-shadow: 0 2px 2px 0 rgb(23 99 213 / 14%), 0 3px 1px -2px rgb(23 99 213 / 20%), 0 1px 5px 0 rgb(23 99 213 / 12%);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
 
 h4{
     font-size: 30px;

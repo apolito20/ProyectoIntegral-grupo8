@@ -49,11 +49,15 @@
                         <div class="purchase">
                             <button class="comprar" type="submit">Comprar Ya</button>
                             <button class="carrito" type="submit">Agregar al carrito</button>
-                            <p></p>
+                        </div>
+                        <div>
+                        <% for (i = 0; i< productos.length; i++) { %>
+                        <a href="/editarProductos/<%= productos.id %>" class="action-button edit">EDITAR PRODUCTO</a>                            <p></p>
+                        <% } %>
                         </div>
                 </div>
             </div>                 
-            </div>
+            </div>  
         </div>
         
     </main>

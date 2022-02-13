@@ -106,5 +106,105 @@
     "category": "in-sale",
     "description": "www",
     "price": "2"
+  },
+  {
+    "id": 15,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 16,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 17,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 18,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 19,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 20,
+    "name": "1",
+    "category": "in-sale",
+    "description": "2",
+    "price": "22"
+  },
+  {
+    "id": 21,
+    "name": "Juliett Alexandra Sanchez Rodriguez",
+    "category": "in-sale",
+    "description": "2",
+    "price": "$3.06",
+    "image": "image-1644770168497-26148910.jpg"
+  },
+  {
+    "id": 22,
+    "name": "prueba 2",
+    "category": "visited",
+    "description": "ya funciona",
+    "price": "$3.06",
+    "image": "default-image.png"
+  },
+  {
+    "id": 23,
+    "name": "prueba 4",
+    "category": "visited",
+    "description": "ya funciona",
+    "price": "$3.06",
+    "image": {
+      "fieldname": "image",
+      "originalname": "descarga (2).png",
+      "encoding": "7bit",
+      "mimetype": "image/png",
+      "destination": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TUTIS\\TUTIS\\ProyectoIntegral-grupo8\\public\\img",
+      "filename": "image-1644770795436-450538222.png",
+      "path": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TUTIS\\TUTIS\\ProyectoIntegral-grupo8\\public\\img\\image-1644770795436-450538222.png",
+      "size": 4643
+    }
+  },
+  {
+    "id": 24,
+    "name": "Juliett Alexandra Sanchez Rodriguez",
+    "category": "in-sale",
+    "description": "www",
+    "price": "2",
+    "image": {
+      "fieldname": "image",
+      "originalname": "WhatsApp Image 2022-02-04 at 3.40.41 PM (1).jpeg",
+      "encoding": "7bit",
+      "mimetype": "image/jpeg",
+      "destination": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TUTIS\\TUTIS\\ProyectoIntegral-grupo8\\public\\img",
+      "filename": "image-1644771272914-861874741.jpeg",
+      "path": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\TUTIS\\TUTIS\\ProyectoIntegral-grupo8\\public\\img\\image-1644771272914-861874741.jpeg",
+      "size": 61648
+    }
+  },
+  {
+    "id": 25,
+    "name": "Juliett Alexandra Sanchez Rodriguez",
+    "category": "visited",
+    "description": "2",
+    "price": "123",
+    "image": "image-1644772137408-283506594.jpeg"
   }
 ]
