@@ -206,5 +206,161 @@
     "description": "2",
     "price": "123",
     "image": "image-1644772137408-283506594.jpeg"
+  },
+  {
+    "id": 26,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contraseña": [
+      "12345678",
+      "12345678"
+    ],
+    "category": "visited",
+    "image": "image-1644789412751-155352142.jpeg"
+  },
+  {
+    "id": 27,
+    "nombreUsuario": "1",
+    "apellidoUsuario": "2",
+    "email": "233",
+    "telefono": "ad",
+    "contraseña": [
+      "123456778",
+      "1234568"
+    ],
+    "category": "in-sale",
+    "image": "image-1644789727138-103369107.jpeg"
+  },
+  {
+    "id": 28,
+    "nombreUsuario": "1",
+    "apellidoUsuario": "1",
+    "email": "1",
+    "telefono": "fds",
+    "contraseña": [
+      "123456",
+      "123456"
+    ],
+    "category": "in-sale",
+    "image": "image-1644789907127-848702583.png"
+  },
+  {
+    "id": 29,
+    "nombreUsuario": "1323",
+    "apellidoUsuario": "2343",
+    "email": "213223",
+    "telefono": "gfds",
+    "contraseña": [
+      "123456",
+      "123456"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 30,
+    "nombreUsuario": "2",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "fsa",
+    "contraseña": [
+      "1",
+      "1"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 31,
+    "nombreUsuario": "13",
+    "apellidoUsuario": "12",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396474",
+    "contraseña": [
+      "123",
+      "123"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 32,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": [
+      "gfds",
+      "gfds"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 33,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": [
+      "8765432",
+      "8765432"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 34,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": [
+      "654321",
+      "7654321"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 35,
+    "nombreUsuario": "Juliett",
+    "apellidoUsuario": "Sanchez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396474",
+    "contrasena": [
+      "trewdsqgrfed",
+      "sgrfedwsqa"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
+  },
+  {
+    "id": 36,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": [
+      "123456789",
+      "|123456789"
+    ],
+    "category": "in-sale",
+    "image": "image-1644796494635-773101092.png"
+  },
+  {
+    "id": 37,
+    "nombreUsuario": "Juliett Alexandra",
+    "apellidoUsuario": "Sanchez Rodriguez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": [
+      "unhybtgvrfecdwxs",
+      "hbtgvrfcedxwszq"
+    ],
+    "category": "in-sale",
+    "image": "default-image.png"
   }
 ]

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const upload = require("../middlewares/multer")
+const validator = require("../middlewares/validator")
 
 const mainController = require("../controller/mainController");
 
@@ -9,9 +10,8 @@ router.get("/", mainController.index);
 
 router.get('/carrito', mainController.carrito);
 
-router.get('/login', mainController.login);
 
-router.get('/register',mainController.register);
+//PRODUCTOS
 
 //Listado de todos los productos
 router.get('/productos',mainController.productos);

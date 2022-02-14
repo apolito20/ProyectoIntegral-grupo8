@@ -22,39 +22,81 @@
 <main>
     <div class="container">
         <div class="form-register">
-        <div class="title">Registrate</div>
-        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">Nombre </span>
-                    <input type="text" placeholder="Pon tu Nombre" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Apellido</span>
-                    <input type="text" placeholder="Pon tu Apellido" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Email</span>
-                    <input type="text" placeholder="Pon tu Email" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Telefono</span>
-                    <input type="text" placeholder="Pon tu Telefono" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Contraseña</span>
-                    <input type="password" placeholder="Pon tu Contraseña" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Confirmar Contraseña</span>
-                    <input type="password" placeholder="Confirma tu Contraseña" required>
-                </div>
-            </div>
-            <div class="button">
-                <input type="submit" value="Registrar">
-
-            </div>
-        </form>
+            <% if (locals.errors) { %>
+                <% for (let oneError in errors) { %>
+                <% } %>
+            <% } %>
+            <div class="title">Registrate</div>
+                <form action="/register" method="POST" enctype="multipart/form-data">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nombre </span>
+                        <input type="text" placeholder="Pon tu Nombre" name="nombreUsuario" required >
+                        <% if (locals.errors && errors.nombreUsuario) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.nombreUsuario.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Apellido</span>
+                        <input type="text" placeholder="Pon tu Apellido" name="apellidoUsuario" required>
+                        <% if (locals.errors && errors.apellidoUsuario) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.apellidoUsuario.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Pon tu Email" name="email" required>
+                        <% if (locals.errors && errors.email) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.email.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Telefono</span>
+                        <input type="text" placeholder="Pon tu Telefono"name="telefono" required>
+                        <% if (locals.errors && errors.telefono) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.telefono.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Contraseña</span>
+                        <input type="password" placeholder="Pon tu Contraseña" name="contrasena" required>
+                        <% if (locals.errors && errors.contrasena) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.contrasena.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirmar Contraseña</span>
+                        <input type="password" placeholder="Confirma tu Contraseña" name="contrasena" required>
+                        <% if (locals.errors && errors.contrasena) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.contrasena.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Categoria</span>
+                        <select name="category" id="category" class="form-input" required>
+                        <option value="">Categoria del usuario</option>
+                        <option value="in-sale">Vendedor</option>
+                        <option value="visited">Cliente</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="image">Imagen de perfil</span>
+                        <input type="file" id="image" name="avatar" class="form-input">
+                            <% if (locals.errors && errors.avatar) { %>
+                            <div class = "text-danger">
+                                <p> <%= errors.avatar.msg %> </p>
+                            <% } %>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Registrar">
+                    </div>
+                </form>
         </div>
     </div>
 </main>
