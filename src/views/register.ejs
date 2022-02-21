@@ -69,14 +69,14 @@
                             <p> <%= errors.contrasena.msg %> </p>
                         <% } %>
                     </div>
-                    <div class="input-box">
+           <!--     <div class="input-box">
                         <span class="details">Confirmar Contraseña</span>
                         <input type="password" placeholder="Confirma tu Contraseña" name="contrasena" required>
                         <% if (locals.errors && errors.contrasena) { %>
                         <div class = "text-danger">
                             <p> <%= errors.contrasena.msg %> </p>
                         <% } %>
-                    </div>
+                    </div> -->
                     <div class="input-box">
                         <span class="details">Categoria</span>
                         <select name="category" id="category" class="form-input" required>
@@ -86,7 +86,7 @@
                         </select>
                     </div>
                     <div class="input-box">
-                        <span class="image">Imagen de perfil</span>
+                        <span class="avatar">Imagen de perfil</span>
                         <input type="file" id="image" name="avatar" class="form-input">
                             <% if (locals.errors && errors.avatar) { %>
                             <div class = "text-danger">

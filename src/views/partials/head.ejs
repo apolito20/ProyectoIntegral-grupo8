@@ -32,12 +32,17 @@
          </div>         
     </div>
     <div class="main-navbar">
-    <ul>
-        <li><a href="/register">Crea tu cuenta <i class="far fa-user-circle"></i></a></li>
-        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
-        <li><a href="/carrito">Mi Carrito <i class="fas fa-shopping-basket"></i></a></li>
-        <li><a href="/productos">Todos los productos <i class="fas fa-shopping-basket"></i></a></li>
-        <li><a href="/productos-create">Crear producto<i class="fas fa-shopping-basket"></i></a></li>
+        <ul>
+            <li><a href="/home">Home<i class="fas fa-shopping-basket"></i></a></li>
+        <% if (locals.logueado) {%>
+            <li><a href="/perfilUsuario">Perfil<i class="fas fa-shopping-basket"></i></a></li>
+            <li><a href="/carrito">Mi Carrito <i class="fas fa-shopping-basket"></i></a></li>
+            <li><a href="/productos">Todos los productos <i class="fas fa-shopping-basket"></i></a></li>
+            <li><a href="/productos-create">Crear producto<i class="fas fa-shopping-basket"></i></a></li>
+        <% } else {%>
+            <li><a href="/register">Crea tu cuenta <i class="far fa-user-circle"></i></a></li>
+            <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <% } %>
     </ul>
 </div>
 

@@ -1,12 +1,92 @@
 [
-    {
-        "id": 1,
-        "nombreUsuario": "Oscar",
-        "apellidoUsuario": "Agudelo",
-        "email": "oscar@gmail.com",
-        "telefono": "304112302",
-        "contrasena": "soyOscar",
-        "category": "Vendedor",
-        "avatar": "____"
-    }
+  {
+    "id": 1,
+    "nombreUsuario": "Oscar",
+    "apellidoUsuario": "Agudelo",
+    "email": "oscar@gmail.com",
+    "telefono": "304112302",
+    "contrasena": "soyOscar",
+    "category": "Vendedor",
+    "avatar": "default-image.png"
+  },
+  {
+    "id": 2,
+    "nombreUsuario": "qwertyh",
+    "apellidoUsuario": "qwerrtre",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$GdNcbQw3tEPFrCzvfou9l.Eqv9uJlQJTQBGpay4gDmhmuigmTX/Te",
+    "category": "in-sale",
+    "avatar": "avatar-1645304337178-201001685.jpeg"
+  },
+  {
+    "id": 3,
+    "nombreUsuario": "qwertyh",
+    "apellidoUsuario": "qwerrtre",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$mXLv6sN9S5i8qF7RonHIYeWyo44mMFOuuY2dGVven5ALZ3.RI7iIa",
+    "category": "in-sale",
+    "avatar": "avatar-1645304356647-979984680.jpeg"
+  },
+  {
+    "id": 4,
+    "nombreUsuario": "qwertyh",
+    "apellidoUsuario": "qwerrtre",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$p03yfp37GWYdschc8/wHDerN5I.Dt8nugRiBxo8JRjSi8JHmC0Z7m",
+    "category": "in-sale",
+    "avatar": "avatar-1645304362925-310423199.jpeg"
+  },
+  {
+    "id": 5,
+    "nombreUsuario": "qwertyh",
+    "apellidoUsuario": "qwerrtre",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$BmB3bwYwf2TNLM3HyDyaouYqoL5jyKN3cfPrDh9KFG76Oj5mWeMOe",
+    "category": "in-sale",
+    "avatar": "avatar-1645304415835-605249017.jpeg"
+  },
+  {
+    "id": 6,
+    "nombreUsuario": "qwertyu",
+    "apellidoUsuario": "qwert",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$ZhAf/DSZRC.uOmnE/qZsZ.aIE3q9.LMMkpZU/JrCLQt4jFDDAQMgG",
+    "category": "in-sale",
+    "avatar": "avatar-1645304439616-76055113.png"
+  },
+  {
+    "id": 7,
+    "nombreUsuario": "JUANrods",
+    "apellidoUsuario": "RODRIGUEZ",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396474",
+    "contrasena": "$2a$10$G9ASUW07CmpF4..cDZVk1OnJ.JvY2lSvHVL7VEb0.ysdouqHUHqqa",
+    "category": "in-sale",
+    "avatar": "avatar-1645304683085-325107601.png"
+  },
+  {
+    "id": 8,
+    "nombreUsuario": "juliett",
+    "apellidoUsuario": "sanchez",
+    "email": "juliethsanchez9595@gmail.com",
+    "telefono": "3054396472",
+    "contrasena": "$2a$10$29r3kOnZo2Ip936EMz1NP.GT/o/Z8ZUHtr9snNer8dhLk5DV6ops.",
+    "category": "in-sale",
+    "avatar": "avatar-1645311036147-117723105.jpeg"
+  },
+  {
+    "id": 9,
+    "nombreUsuario": "Juliett",
+    "apellidoUsuario": "Sanchez",
+    "email": "juliethsanche9595@gmail.com",
+    "telefono": "3054396474",
+    "contrasena": "$2a$10$c0Z.cqbd/DOEAcVktLc6Ku/IFBsDV2hdDdTGxewGftacLJMByELRi",
+    "category": "in-sale",
+    "avatar": "avatar-1645371973489-800199052.jpeg"
+  }
 ]

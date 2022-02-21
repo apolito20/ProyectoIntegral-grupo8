@@ -1,26 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Login</title> 
-	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/style-login.css">
-	
+    <meta charset="UTF-8">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/style-register.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>  
 <body>
     <header>
-        <%- include('./partials/head') %> 
+        <%- include('./partials/head') %>    
     </header>
+<main>
+    <div class="container">
+        <div class="form-login">
 
-   <section class= "form-login">
-       <h5>Formulario login</h5>
-       <input class="controls" type= "text" name="usuario" value="" placeholder="usuario">
-       <input class="controls" type= "password" name= "contraseña" value="" placeholder="contraseña">
-       <input class="button" type= "submit" name="" value="Ingresar">
-       <p><a href="#">¿Olvido su contraseña?</a></p>
-   </section>
-   <footer>
+            <div class="title">Ingresa</div>
+                <form action="/login" method="POST">
+                <div class="user-details">
+ 
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Pon tu Email" name="email" required>
+                        <% if (locals.errors && errors.email) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.email.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Contraseña</span>
+                        <input type="password" placeholder="Pon tu Contraseña" name="contrasena" required>
+                        <% if (locals.errors && errors.contrasena) { %>
+                        <div class = "text-danger">
+                            <p> <%= errors.contrasena.msg %> </p>
+                        <% } %>
+                    </div>
+                    <div>
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="recordarUsuario">Recordar mi usuario
+                        </label>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Ingresar">
+                    </div>
+                </form>
+        </div>
+    </div>
+</main>
+
+</body>
+<footer>
     <%- include('./partials/footer') %>  
 </footer>
-</body>
+
 </html>

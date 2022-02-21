@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/style-register.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>  
+<body>
+    <header>
+        <%- include('./partials/head') %>    
+    </header>
+<main>
+    <div class="container">
+        <div class="form-register">
+            <div class="title">Perfil del usuario</div>
+            <div class="user-details">
+                    <div class="avatar">
+                        <img src = "/img/<%user.avatar%>" alt=avatar>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><%=user.nombreUsuario%></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><%=user.apellidoUsuario%></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><%=user.email %></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><%= user.telefono %></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details"><%= user.category%></span>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="salir">
+                    </div>
+        </div>
+    </div>
+</main>
+
+</body>
+<footer>
+    <%- include('./partials/footer') %>  
+</footer>
+
+</html>

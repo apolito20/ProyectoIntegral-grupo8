@@ -11,6 +11,9 @@ const mainController = {
          res.render("index");
     },
 
+    home:(req,res) => {
+     res.render("home");
+     },
 
     detalleProducto:(req,res) => {
           let idProducto = req.params.id
